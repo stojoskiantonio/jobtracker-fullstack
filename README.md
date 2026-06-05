@@ -109,7 +109,7 @@ Backend configuration lives in [`jobtracker/src/main/resources/application.yml`]
 | `spring.datasource.username` | `jobtracker` | DB username |
 | `spring.datasource.password` | `jobtracker123` | DB password |
 
-> **Note:** The JWT secret and database credentials are currently hardcoded. Before deploying to production, move them to environment variables or a secrets manager.
+> **This project is for learning and portfolio purposes only. It is not intended for production use.**
 
 ## Available Scripts
 

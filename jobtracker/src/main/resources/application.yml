@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: jobtracker
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jobtracker?allowPublicKeyRetrieval=true&useSSL=false
+    username: jobtracker
+    password: jobtracker123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
